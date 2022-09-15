@@ -1,0 +1,313 @@
+.Header {
+    background-color: #1a4e00;
+    color: #ffffff;
+    height: 100px;
+    display: -webkit-flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.hea {
+    font-weight: 700;
+    display: table;
+    align-self: flex-start;
+    width: -webkit-fit-content;
+    width: 100%;
+    width: -moz-fit-content;
+    margin: 0px auto 0px;
+    text-align: center;
+}
+
+.main {
+    flex: 0 0 100%;
+    max-width: 100%;
+    min-width: 100%;
+    content: '';
+    display: grid;
+    color: #ffffff;
+    background-image: none;
+    min-height: 80px;
+    width: 100% !important;
+    position: sticky;
+    grid-template-columns: 70% 30%;
+    gap: 0px;
+    padding: 0px;
+    align-items: center;
+    line-height: 25px;
+    justify-content:center;
+    height: fit-content;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: 0px;
+    justify-content: center;
+    padding-top: 0px;
+}
+
+.Profilepicture {
+    height: 266px;
+    width: 266px;
+}
+
+.Weiteres {
+    width: 100%;
+    padding: 10%;
+}
+
+.container-1 {
+    text-align: left;
+    position: relative;
+    background-clip: padding-box;
+    background-origin: padding-box;
+    position: relative;
+    flex: 1;
+    max-width: 100%;
+    transition-duration: inherit;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: #206200;
+    width: 100%;
+    height: 100%;
+    padding-top: 0px;
+
+}
+
+.container-2 {
+    text-align: left;
+    position: relative;
+    background-clip: padding-box;
+    background-origin: padding-box;
+    position: relative;
+    flex: 1;
+    max-width: 100%;
+    transition-duration: inherit;
+    -webkit-align-items: left;
+    -webkit-box-align: left;
+    -ms-flex-align: left;
+    align-items: left;
+    margin: 0px;
+    display: flex;
+    justify-content: left;
+    background-color: #206200;
+    width: 100%;
+    height: 100%;
+    padding-top: 0px;
+}
+
+.container-3 {
+    background-image: none;
+    text-align: left;
+    color: #ffffff;
+    background-color: #133b00;
+    padding: 30px;
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    background-clip: padding-box;
+    background-origin: padding-box;
+    box-sizing: border-box;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.container-4 {
+    text-align: left;
+    position: relative;
+    background-clip: padding-box;
+    background-origin: padding-box;
+    position: relative;
+    flex: 1;
+    max-width: 100%;
+    transition-duration: inherit;
+    -webkit-align-items: left;
+    -webkit-box-align: left;
+    -ms-flex-align: left;
+    align-items: left;
+    display: flex;
+    justify-content: left;
+    background-color: #206200;
+    width: 100%;
+    height: 100%;
+    padding-top: 0px;
+}
+
+.table-body {
+    margin-bottom: 0;
+    margin-top: 0;
+    width: fit-content;
+    height: fit-content;
+    border-collapse: collapse;
+    width: fit-content;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    padding-left: 5px;
+    background-color: #343434;
+}
+
+.icell {
+    color: #ffffff;
+    border-width: 1px;
+    border-color: #454545;
+    stroke: #454545;
+    color: #ffffff;
+    background-color: rgba(4,36,44,0.75);
+    position: relative;
+    display: inline;
+    line-height: inherit;
+    font-size: 1em;
+    fill: currentColor;
+    vertical-align: middle;
+    white-space: nowrap;
+    background-image: none;
+    text-align: left;
+    padding-left: 5px;
+    font-weight: bold;
+}
+
+.tablecell {
+    border-width: 1px;
+    border-color: #454545;
+    stroke: #454545;
+    position: relative;
+    display: inline;
+    line-height: inherit;
+    font-size: 1em;
+    fill: currentColor;
+    vertical-align: middle;
+    white-space: nowrap;
+    background-image: none;
+    text-align: left;
+    padding: 5px;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+
+.pbcont {
+    width: 100%;
+    display: flex;
+    background-clip: padding-box;
+    background-origin: padding-box;
+    box-sizing: border-box;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    align-self: center;
+}
+
+.dbc {
+    background-color: #63914d !important;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-clip: padding-box;
+    background-origin: padding-box;
+    box-sizing: border-box;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.html {
+    font-size: 16px; 
+    font-family: Arial, sans-serif; 
+    padding: 100px; 
+    padding-top: 0;
+    background-color: #160a06;
+}
+
+.Inhalt {
+    color: #ffff;
+}
+
+.Inhaltsverzeichnis {
+    align-self: center;
+    text-align: center;
+    justify-content: center;
+    background-color: transparent;
+    padding: 40px;
+    border: 1px solid black;
+    border-radius: 3px;
+    font-size: 100%;
+    margin: 24px auto 24px;
+    display: table
+}
+
+.main-2 {
+    flex: 0 0 100%;
+    max-width: 100%;
+    min-width: 100%;
+    content: '';
+    color: #ffffff;
+    background-image: none;
+    width: 100% !important;
+    position: sticky;
+    gap: 0px;
+    padding: 0px;
+    align-items: center;
+    line-height: 25px;
+    justify-content:center;
+    height: fit-content;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: 0px;
+    justify-content: center;
+    padding-top: 0px;
+}
+
+.Absatz {
+    background-color: #206200;
+    margin: 0;
+    padding-left: 40px;
+}
+
+.body {
+    margin: 0;
+}
+
+.menuecontainer {
+    text-align: left;
+    box-sizing: border-box;
+    -webkit-align-items: left;
+    -webkit-box-align: left;
+    -ms-flex-align: left;
+    align-items: left;
+    justify-content: left;
+    align-self: left;
+    justify-content: left;
+    justify-items: left;
+}
