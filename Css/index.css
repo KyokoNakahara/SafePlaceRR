@@ -1,0 +1,118 @@
+.body {
+    height: auto;
+    min-height: 100%;
+    position: relative;
+    
+}
+
+.html {
+    background-color: #031026;
+    font-size: 16px; 
+    font-family: Arial, sans-serif; 
+    padding: 100px; 
+    padding-top: 0;
+    margin: 0;
+    
+}
+
+.header {
+    background-color: #5d5c90;
+    color: #ffffff;
+    align-self: flex-start;
+    width: -webkit-fit-content;
+    width: fit-content;
+    width: -moz-fit-content;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    margin: 0px auto 0px;
+}
+
+.Header1 {
+    font-weight: 700;
+    font-size: 34px;
+    display: table;
+    align-self: flex-start;
+    display: -webkit-flexbox;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+.section-1 {
+    color: #ffffff;
+    flex: 0 0 100%;
+    max-width: 100%;
+    min-width: 100%;
+    content: '';
+    display: grid;
+    background-image: none;
+    min-height: 80px;
+    width: 100% !important;
+    position: sticky;
+    display: grid;
+    grid-template-columns: 500px 500px 500px;
+    gap: 0px;
+    align-items: center;
+    line-height: 25px;
+    justify-content:center;
+    background-color: #50507C;
+    margin: 0;
+    display: table;
+    align-self: flex-start;
+    display: -webkit-flexbox;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.container {
+    text-align: center;
+    position: relative;
+    background-clip: padding-box;
+    background-origin: padding-box;
+    flex: 1;
+    max-width: 100%;
+    transition-duration: inherit;
+    padding: 0px;
+    background-color: #897AB3;
+    height:400px;
+    width: 400px;
+    display: table;
+    align-self: flex-start;
+    display: -webkit-flexbox;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.Test {
+    display: table;
+    align-self: flex-start;
+    display: -webkit-flexbox;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    justify-content: center;
+}
