@@ -179,3 +179,8 @@
     justify-content: center;
     margin-top: 10px;
 }
+
+.Chars {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
