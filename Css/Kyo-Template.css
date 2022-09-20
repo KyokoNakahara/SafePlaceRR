@@ -292,7 +292,9 @@ table, th, td {
 .Absatz {
     background-color: #954623;
     margin: 0;
+    text-align: justify;
     padding-left: 40px;
+    padding-right: 40px;
 }
 
 .body {
