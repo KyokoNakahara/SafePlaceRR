@@ -7,6 +7,24 @@
     <meta property="og:title" content="Charaktere">
     <meta property="og:type" content="website">
     <link rel="icon" type="image/x-icon" href="Charaktere/images/Logo.png">
+    <script type="text/javascript">
+        function countItems(listID1, listID2, listID3, listID4) {
+            var ul = document.getElementById(listID1);
+            var i = 0, itemCount1 = 0;
+            while (ul.getElementsByTagName('li')[i++]) itemCount1++;
+            var ul = document.getElementById(listID2);
+            var i = 0, itemCount2 = 0;
+            while (ul.getElementsByTagName('li')[i++]) itemCount2++;
+            var ul = document.getElementById(listID3);
+            var i = 0, itemCount3 = 0;
+            while (ul.getElementsByTagName('li')[i++]) itemCount3++;
+            var ul = document.getElementById(listID4);
+            var i = 0, itemCount4 = 0;
+            while (ul.getElementsByTagName('li')[i++]) itemCount4++;
+            itemCount = itemCount1 + itemCount2 + itemCount3 + itemCount4
+            document.write(itemCount)
+        }
+    </script>
 </head>
 
 <body>
@@ -14,12 +32,11 @@
         <a style="color: #ffffff;" href="index.html">Zurück zur Startseite</a>
     </section>
     <section class="header">
-        <h1 class="Header1"> <br> Charaktere des RPs</h1>
-        <p class="AnzahlCh">Anzahl Charaktere Gesamt:<br> 63 </p>
+        <h1 class="Header1" style="margin-bottom:0;padding-bottom: 30px;"><br>Charaktere des RPs</h1>
     </section>
     <section class="section-1">
         <div class="container">
-            <ul class="Charliste">
+            <ul class="Charliste" id="1">
                 <li><a style="color: #ffffff;" href="Charaktere/Adrian-Crevan.html">Adrian Crevan</li>
                 <li><a style="color: #ffffff;" href="Charaktere/Aino.html">Aino</li>
                 <li><a style="color: #ffffff;" href="Charaktere/Aizen.html">Aizen</li>
@@ -57,7 +74,7 @@
             </ul>
         </div>
         <div class="container">
-            <ul class="Charliste">
+            <ul class="Charliste" id="2">
                 <li><a style="color: #ffffff;" href="Charaktere/Fiona.html">Fiona</li>
                 <li><a style="color: #ffffff;" href="Charaktere/Fischl.html">Fischl</li>
                 <li><a style="color: #ffffff;" href="Charaktere/Flora.html">Flora von Lynphea</li>
@@ -98,7 +115,7 @@
             </ul>
         </div>
         <div class="container">
-            <ul class="Charliste">
+            <ul class="Charliste" id="3">
                 <li><a style="color: #ffffff;" href="Charaktere/Leonie.html">Léonie</li>
                 <li><a style="color: #ffffff;" href="Charaktere/Lilia.html">Lilia Syllianthar</li>
                 <li><a style="color: #ffffff;" href="Charaktere/Lio.html">Lio</li>
@@ -133,8 +150,8 @@
             </ul>
         </div>
         <div class="container">
-            <ul class="Charliste">
-                <li><a style="color: #ffffff;" href="Charaktere/Salem.html">Salem </li>
+            <ul class="Charliste" id="4">
+                <li><a style="color: #ffffff;" href="Charaktere/Salem.html"></li>
                 <li><a style="color: #ffffff;" href="Charaktere/Seras.html">Seras</li>
                 <li><a style="color: #ffffff;" href="Charaktere/Shanoa.html">Shanoa</li>
                 <li><a style="color: #ffffff;" href="Charaktere/Shaymin.html">Shaymin Phantomhive</li>
@@ -163,9 +180,15 @@
                 <li><a style="color: #ffffff;" href="Charaktere/Zayne.html">Zayne</li>
                 <li><a style="color: #ffffff;" href="Charaktere/Zeri.html">Zeri</li>
                 <li><a style="color: #ffffff;" href="Charaktere/Zhongli.html">Zhongli</li>
-                <li><a style="color: #ffffff;" href="Charaktere/Zoe.html">Zoe</li>
+                <li><a style="color: #ffffff;" href="Charaktere/Zoe.html">Zoe</li></a>
             </ul>
         </div>
+    </section>
+    <section  class="header">
+        Charaktere insgesamt:
+        <script>
+            countItems("1", "2", "3", "4")
+        </script>
     </section>
     <footer class="foot">
         Website by Kyoko
