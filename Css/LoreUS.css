@@ -1,0 +1,113 @@
+.body {
+    height: auto;
+    min-height: 100%;
+    position: relative;
+}
+
+.p {
+    margin: 0;
+}
+
+.Header1 {
+    font-weight: 700;
+    display: table;
+    align-self: flex-start;
+    width: -webkit-fit-content;
+    width: fit-content;
+    width: -moz-fit-content;
+    margin: 0px auto 40px;
+}
+
+.menue {
+    background-color: #04242c;
+    color: white
+}
+
+.header {
+    background-color: #435b61;
+    color: #ffffff;
+    align-items: center;
+    text-align: center;
+}
+
+.AnzahlCh {
+    text-align: center;
+    font-size: 1.25rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: table;
+    align-self: flex-start;
+    width: -webkit-fit-content;
+    width: fit-content;
+    width: -moz-fit-content;
+    width: 388px;
+    margin: 0px auto 0px;
+}
+
+.container {
+    text-align: left;
+    position: relative;
+    display: flex;
+    background-clip: padding-box;
+    background-origin: padding-box;
+    position: relative;
+    flex: 1;
+    max-width: 100%;
+    transition-duration: inherit;
+    padding: 30px;
+}
+
+.Charliste {
+    display: grid;
+    align-self: flex-start;
+    width: -webkit-fit-content;
+    width: fit-content;
+    width: -moz-fit-content;
+    margin: 10 auto;
+    align-self: center;
+    color: #ffffff;
+}
+
+
+.section-1 {
+    flex: 0 0 100%;
+    background-color: #819195;
+    max-width: 100%;
+    min-width: 100%;
+    content: '';
+    display: grid;
+    color: #ffffff;
+    background-image: none;
+    min-height: 80px;
+    width: 100% !important;
+    position: sticky;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 300px 300px 300px 300px;
+    gap: 0px;
+    padding: 0px;
+    align-items: center;
+    line-height: 25px;
+    justify-content:center;
+    
+}
+
+.foot {
+    min-height: 120px;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(29, 29, 29);
+    color:#ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100% !important;
+}
+
+.html {
+    font-size: 16px; 
+    font-family: Arial, sans-serif; 
+    padding: 100px; 
+    padding-top: 0;;
+    background-color:#04242c;
+}
