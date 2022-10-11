@@ -19,12 +19,12 @@
 }
 
 .menue {
-    background-color: #04242c;
+    background-color: #200564;
     color: white
 }
 
 .header {
-    background-color: #435b61;
+    background-color: #4d3388;
     color: #ffffff;
     align-items: center;
     text-align: center;
@@ -71,7 +71,7 @@
 
 .section-1 {
     flex: 0 0 100%;
-    background-color: #819195;
+    background-color: #4b3e69;
     max-width: 100%;
     min-width: 100%;
     content: '';
@@ -109,5 +109,5 @@
     font-family: Arial, sans-serif; 
     padding: 100px; 
     padding-top: 0;;
-    background-color:#04242c;
+    background-image: linear-gradient(to bottom, #200564, #4d3388, #785fac, #a38ed1, #cfbff7);
 }
