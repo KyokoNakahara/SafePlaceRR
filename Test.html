@@ -1,0 +1,20 @@
+<html>
+
+<head>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+</head>
+
+<body>
+    <iframe src="Menue.html" height="10%" width="100%" style="border:none;" onload="this.before((this.contentDocument.body||this.contentDocument).children[0]);this.remove()"></iframe>
+    <div id="b-placeholder">
+
+    </div>
+
+    <script>
+        $(function () {
+            $("#b-placeholder").load("Menue.html");
+        });
+    </script>
+</body>
+
+</html>
