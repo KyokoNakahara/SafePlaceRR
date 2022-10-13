@@ -204,20 +204,19 @@ td {
 }
 
 .pbcont {
-    width: 100%;
     display: flex;
     background-clip: padding-box;
     background-origin: padding-box;
     box-sizing: border-box;
-    -webkit-align-items: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    justify-content: center;
+    -webkit-align-items: right;
+    -webkit-box-align: right;
+    -ms-flex-align: right;
+    align-items: right;
+    justify-content: right;
     padding-left: 30px;
     padding-right: 30px;
     padding-top: 30px;
-    align-self: center;
+    align-self: right;
 }
 
 .dbc {
@@ -342,3 +341,4 @@ td {
 #myBtn:hover {
     background-color: #A780C7;
 }
+
